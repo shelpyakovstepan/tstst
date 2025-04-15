@@ -10,8 +10,5 @@ class Dog:
         self.voice = voice
         self.spices = spices
 
-    def make_voice(self):
-        print(f'Собака породы {self.spices} сказала {self.voice}')
-
     def __del__(self):
         Dog.__instance = None
